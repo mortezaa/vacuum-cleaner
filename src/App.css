@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.board-feild {
+  height:40px;
+  width: 6.4%;
+  position: relative;
+  display: inline-block;
+  border:1px solid #ddd;
+  float: right;
+  text-align: center;
+}
+.trash{
+  z-index: -9999;
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  right: 10px;
+}
+.vacuum{
+  z-index: 9999;
+}
+
+.App-intro {
+  font-size: large;
+  padding: 50x;
+  width:800px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.startbutton{
+  float: left;
+  margin: 10px;
+  pading:10px;
+}
